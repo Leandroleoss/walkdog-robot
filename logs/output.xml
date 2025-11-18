@@ -1,51 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-18T15:30:48.844653" rpa="false" schemaversion="5">
-<suite id="s1" name="Home" source="C:\Users\leandro.sasouza\Documents\projects\walkdog-robot\home.robot">
-<test id="s1-t1" name="Home page deve estar online" line="7">
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-18T16:16:50.590828" rpa="false" schemaversion="5">
+<suite id="s1" name="Signup" source="C:\Users\leandro.sasouza\Documents\projects\walkdog-robot\signup.robot">
+<test id="s1-t1" name="Deve poder cadastrar um novo dog walker" line="8">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-11-18T15:30:49.022470" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\leandro.sasouza\\Documents\\projects\\walkdog-robot\\logs\\browser\\traces\\temp\\5f80d801-ea6d-4025-9285-b2e5ae8255d4"}</msg>
-<msg time="2025-11-18T15:30:49.337751" level="INFO">Starting Browser process C:\Users\leandro.sasouza\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:58014</msg>
-<msg time="2025-11-18T15:30:50.441722" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\leandro.sasouza\\Documents\\projects\\walkdog-robot\\logs\\browser\\traces\\temp\\5f80d801-ea6d-4025-9285-b2e5ae8255d4"}</msg>
+<msg time="2025-11-18T16:16:50.763716" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\leandro.sasouza\\Documents\\projects\\walkdog-robot\\logs\\browser\\traces\\temp\\20845a8e-4c32-4da1-aca8-00b7f68d8432"}</msg>
+<msg time="2025-11-18T16:16:51.064846" level="INFO">Starting Browser process C:\Users\leandro.sasouza\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:52103</msg>
+<msg time="2025-11-18T16:16:52.605977" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\leandro.sasouza\\Documents\\projects\\walkdog-robot\\logs\\browser\\traces\\temp\\20845a8e-4c32-4da1-aca8-00b7f68d8432"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-11-18T15:30:49.021893" elapsed="1.419984"/>
+<status status="PASS" start="2025-11-18T16:16:50.763102" elapsed="1.843035"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-11-18T15:30:51.778371" level="INFO">Successfully initialized new page object and opened url: https://walkdog.vercel.app/</msg>
-<msg time="2025-11-18T15:30:51.778437" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<arg>https://walkdog.vercel.app/</arg>
+<msg time="2025-11-18T16:16:54.055939" level="INFO">Successfully initialized new page object and opened url: https://walkdog.vercel.app/signup</msg>
+<msg time="2025-11-18T16:16:54.056173" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://walkdog.vercel.app/signup</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-11-18T15:30:50.442394" elapsed="1.336158"/>
+<status status="PASS" start="2025-11-18T16:16:52.606550" elapsed="1.450084"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-11-18T16:16:54.082524" level="INFO">Waited for Element with selector form h1 at state visible</msg>
+<arg>form h1</arg>
+<arg>visible</arg>
+<arg>5000</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-11-18T16:16:54.057468" elapsed="0.025245"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-11-18T15:30:51.823365" level="INFO">Text: 'Cuidado e diversão em cada passo'</msg>
-<arg>h1</arg>
+<msg time="2025-11-18T16:16:54.107994" level="INFO">Text: 'Faça seu cadastro'</msg>
+<arg>form h1</arg>
 <arg>equal</arg>
-<arg>Cuidado e diversão em cada passo</arg>
+<arg>Faça seu cadastro</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-11-18T15:30:51.778870" elapsed="0.044593"/>
+<status status="PASS" start="2025-11-18T16:16:54.083203" elapsed="0.024893"/>
 </kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2025-11-18T15:30:51.895975" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-11-18T15:30:51.823794" elapsed="0.072296"/>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-18T16:17:04.109299" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-18T16:16:54.108430" elapsed="10.001137"/>
 </kw>
-<msg time="2025-11-18T15:30:51.905551" level="INFO">Switching context to context=67d853d1-3a43-4cf5-8a50-662e956d229f in CURRENT</msg>
-<msg time="2025-11-18T15:30:51.912285" level="INFO">Successfully changed active context: context=67d853d1-3a43-4cf5-8a50-662e956d229f</msg>
-<msg time="2025-11-18T15:30:51.953672" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-11-18T15:30:49.021192" elapsed="2.875204"/>
+<msg time="2025-11-18T16:17:04.123284" level="INFO">Switching context to context=94d77568-c2aa-4765-b967-6bf1731c2d96 in CURRENT</msg>
+<msg time="2025-11-18T16:17:04.134915" level="INFO">Successfully changed active context: context=94d77568-c2aa-4765-b967-6bf1731c2d96</msg>
+<msg time="2025-11-18T16:17:04.168911" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-11-18T16:16:50.762415" elapsed="13.348057"/>
 </test>
-<doc>Suite de teste da home page</doc>
-<status status="PASS" start="2025-11-18T15:30:48.845870" elapsed="3.109079"/>
+<doc>Suite de testes de cadastro de dog walker</doc>
+<status status="PASS" start="2025-11-18T16:16:50.591881" elapsed="13.578063"/>
 </suite>
 <statistics>
 <total>
@@ -54,7 +64,7 @@
 <tag>
 </tag>
 <suite>
-<stat name="Home" id="s1" pass="1" fail="0" skip="0">Home</stat>
+<stat name="Signup" id="s1" pass="1" fail="0" skip="0">Signup</stat>
 </suite>
 </statistics>
 <errors>
