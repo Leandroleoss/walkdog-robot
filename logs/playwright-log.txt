@@ -1,37 +1,58 @@
-{"level":30,"time":"2025-11-18T19:16:51.833Z","pid":15364,"hostname":"DGPP-03698139","msg":"Listening on 127.0.0.1:52103"}
-{"level":30,"time":"2025-11-18T19:16:52.341Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-11-18T19:16:52.604Z","pid":15364,"hostname":"DGPP-03698139","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
-{"level":30,"time":"2025-11-18T19:16:52.604Z","pid":15364,"hostname":"DGPP-03698139","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-11-18T19:16:52.604Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-11-18T19:16:52.608Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-11-18T19:16:52.608Z","pid":15364,"hostname":"DGPP-03698139","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ae828bff2be0b332b800db6b9ed85a8d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=a8bad7c8-a308-4473-8f35-3645c54d90a9\"}"}
-{"level":30,"time":"2025-11-18T19:16:52.622Z","pid":15364,"hostname":"DGPP-03698139","msg":"Setting default timeout for context context=94d77568-c2aa-4765-b967-6bf1731c2d96 to 10000"}
-{"level":30,"time":"2025-11-18T19:16:52.622Z","pid":15364,"hostname":"DGPP-03698139","msg":"Changed active context: context=94d77568-c2aa-4765-b967-6bf1731c2d96"}
-{"level":30,"time":"2025-11-18T19:16:52.802Z","pid":15364,"hostname":"DGPP-03698139","msg":"Video path: undefined"}
-{"level":30,"time":"2025-11-18T19:16:52.802Z","pid":15364,"hostname":"DGPP-03698139","msg":"Changed active page"}
-{"level":30,"time":"2025-11-18T19:16:54.054Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method newPage"}
-{"level":30,"time":"2025-11-18T19:16:54.059Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-11-18T19:16:54.059Z","pid":15364,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
-{"level":30,"time":"2025-11-18T19:16:54.081Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-11-18T19:16:54.085Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method getText"}
-{"level":30,"time":"2025-11-18T19:16:54.085Z","pid":15364,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
-{"level":30,"time":"2025-11-18T19:16:54.106Z","pid":15364,"hostname":"DGPP-03698139","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-11-18T19:16:54.106Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method getText"}
-{"level":30,"time":"2025-11-18T19:17:04.115Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.117Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.118Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.119Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.121Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.122Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.123Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.124Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.125Z","pid":15364,"hostname":"DGPP-03698139","msg":"Changed active context: context=94d77568-c2aa-4765-b967-6bf1731c2d96"}
-{"level":30,"time":"2025-11-18T19:17:04.125Z","pid":15364,"hostname":"DGPP-03698139","msg":"Changing current active page: page=f2c41fde-9a26-467e-abd3-e2fb5067ca3a"}
-{"level":30,"time":"2025-11-18T19:17:04.125Z","pid":15364,"hostname":"DGPP-03698139","msg":"Changed active page"}
-{"level":30,"time":"2025-11-18T19:17:04.135Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-11-18T19:17:04.155Z","pid":15364,"hostname":"DGPP-03698139","msg":"Removed page=1291c730-11f5-44d4-8345-360aa58f97b9 from context=94d77568-c2aa-4765-b967-6bf1731c2d96 page stack"}
-{"level":30,"time":"2025-11-18T19:17:04.167Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-11-18T19:17:04.172Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.172Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-18T19:17:04.197Z","pid":15364,"hostname":"DGPP-03698139","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-11-18T19:17:04.320Z","pid":15364,"hostname":"DGPP-03698139","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-19T14:48:05.867Z","pid":20224,"hostname":"DGPP-03698139","msg":"Listening on 127.0.0.1:57919"}
+{"level":30,"time":"2025-11-19T14:48:05.917Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-19T14:48:06.234Z","pid":20224,"hostname":"DGPP-03698139","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-19T14:48:06.234Z","pid":20224,"hostname":"DGPP-03698139","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-19T14:48:06.234Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-19T14:48:06.238Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-19T14:48:06.239Z","pid":20224,"hostname":"DGPP-03698139","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@68e3af66884e9921634adbe19eba418e\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=7d236663-8566-4522-8a7c-d712d8cd5b64\"}"}
+{"level":30,"time":"2025-11-19T14:48:06.252Z","pid":20224,"hostname":"DGPP-03698139","msg":"Setting default timeout for context context=85ac9d23-2589-4495-b859-b486e750fa01 to 10000"}
+{"level":30,"time":"2025-11-19T14:48:06.252Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active context: context=85ac9d23-2589-4495-b859-b486e750fa01"}
+{"level":30,"time":"2025-11-19T14:48:06.417Z","pid":20224,"hostname":"DGPP-03698139","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-19T14:48:06.417Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active page"}
+{"level":30,"time":"2025-11-19T14:48:08.067Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-19T14:48:08.071Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-19T14:48:08.071Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-11-19T14:48:08.095Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-19T14:48:08.099Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-19T14:48:08.099Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-11-19T14:48:08.122Z","pid":20224,"hostname":"DGPP-03698139","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-11-19T14:48:08.122Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-19T14:48:08.125Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.125Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-11-19T14:48:08.136Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.139Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.139Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-11-19T14:48:08.147Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.151Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.151Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=cpf] in page."}
+{"level":30,"time":"2025-11-19T14:48:08.159Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.162Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.162Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=cep] in page."}
+{"level":30,"time":"2025-11-19T14:48:08.173Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.176Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-19T14:48:08.176Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[type=button][value$=CEP] in page."}
+{"level":30,"time":"2025-11-19T14:48:08.227Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method click"}
+{"level":30,"time":"2025-11-19T14:48:08.230Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.230Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressNumber] in page."}
+{"level":30,"time":"2025-11-19T14:48:08.238Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.241Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:08.241Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressDetails] in page."}
+{"level":30,"time":"2025-11-19T14:48:08.248Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-19T14:48:18.255Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.257Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.258Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.259Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.259Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.260Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.261Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.263Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.265Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active context: context=85ac9d23-2589-4495-b859-b486e750fa01"}
+{"level":30,"time":"2025-11-19T14:48:18.265Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changing current active page: page=67fb4787-1788-403f-bbb2-4b43b4c0ae74"}
+{"level":30,"time":"2025-11-19T14:48:18.265Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active page"}
+{"level":30,"time":"2025-11-19T14:48:18.268Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-19T14:48:18.286Z","pid":20224,"hostname":"DGPP-03698139","msg":"Removed page=6ab23a1e-8156-492d-8147-e047b5928095 from context=85ac9d23-2589-4495-b859-b486e750fa01 page stack"}
+{"level":30,"time":"2025-11-19T14:48:18.315Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-19T14:48:18.320Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.320Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-19T14:48:18.345Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-19T14:48:18.465Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method closeAllBrowsers"}
