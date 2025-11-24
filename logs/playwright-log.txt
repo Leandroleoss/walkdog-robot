@@ -1,58 +1,174 @@
-{"level":30,"time":"2025-11-19T14:48:05.867Z","pid":20224,"hostname":"DGPP-03698139","msg":"Listening on 127.0.0.1:57919"}
-{"level":30,"time":"2025-11-19T14:48:05.917Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-11-19T14:48:06.234Z","pid":20224,"hostname":"DGPP-03698139","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
-{"level":30,"time":"2025-11-19T14:48:06.234Z","pid":20224,"hostname":"DGPP-03698139","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-11-19T14:48:06.234Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-11-19T14:48:06.238Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-11-19T14:48:06.239Z","pid":20224,"hostname":"DGPP-03698139","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@68e3af66884e9921634adbe19eba418e\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=7d236663-8566-4522-8a7c-d712d8cd5b64\"}"}
-{"level":30,"time":"2025-11-19T14:48:06.252Z","pid":20224,"hostname":"DGPP-03698139","msg":"Setting default timeout for context context=85ac9d23-2589-4495-b859-b486e750fa01 to 10000"}
-{"level":30,"time":"2025-11-19T14:48:06.252Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active context: context=85ac9d23-2589-4495-b859-b486e750fa01"}
-{"level":30,"time":"2025-11-19T14:48:06.417Z","pid":20224,"hostname":"DGPP-03698139","msg":"Video path: undefined"}
-{"level":30,"time":"2025-11-19T14:48:06.417Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active page"}
-{"level":30,"time":"2025-11-19T14:48:08.067Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method newPage"}
-{"level":30,"time":"2025-11-19T14:48:08.071Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-11-19T14:48:08.071Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
-{"level":30,"time":"2025-11-19T14:48:08.095Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-11-19T14:48:08.099Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getText"}
-{"level":30,"time":"2025-11-19T14:48:08.099Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
-{"level":30,"time":"2025-11-19T14:48:08.122Z","pid":20224,"hostname":"DGPP-03698139","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-11-19T14:48:08.122Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getText"}
-{"level":30,"time":"2025-11-19T14:48:08.125Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.125Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-11-19T14:48:08.136Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.139Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.139Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-11-19T14:48:08.147Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.151Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.151Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=cpf] in page."}
-{"level":30,"time":"2025-11-19T14:48:08.159Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.162Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.162Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=cep] in page."}
-{"level":30,"time":"2025-11-19T14:48:08.173Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.176Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method click"}
-{"level":30,"time":"2025-11-19T14:48:08.176Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[type=button][value$=CEP] in page."}
-{"level":30,"time":"2025-11-19T14:48:08.227Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method click"}
-{"level":30,"time":"2025-11-19T14:48:08.230Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.230Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressNumber] in page."}
-{"level":30,"time":"2025-11-19T14:48:08.238Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.241Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:08.241Z","pid":20224,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressDetails] in page."}
-{"level":30,"time":"2025-11-19T14:48:08.248Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
-{"level":30,"time":"2025-11-19T14:48:18.255Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.257Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.258Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.259Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.259Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.260Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.261Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.263Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.265Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active context: context=85ac9d23-2589-4495-b859-b486e750fa01"}
-{"level":30,"time":"2025-11-19T14:48:18.265Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changing current active page: page=67fb4787-1788-403f-bbb2-4b43b4c0ae74"}
-{"level":30,"time":"2025-11-19T14:48:18.265Z","pid":20224,"hostname":"DGPP-03698139","msg":"Changed active page"}
-{"level":30,"time":"2025-11-19T14:48:18.268Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-11-19T14:48:18.286Z","pid":20224,"hostname":"DGPP-03698139","msg":"Removed page=6ab23a1e-8156-492d-8147-e047b5928095 from context=85ac9d23-2589-4495-b859-b486e750fa01 page stack"}
-{"level":30,"time":"2025-11-19T14:48:18.315Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-11-19T14:48:18.320Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.320Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-11-19T14:48:18.345Z","pid":20224,"hostname":"DGPP-03698139","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-11-19T14:48:18.465Z","pid":20224,"hostname":"DGPP-03698139","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-24T19:09:30.810Z","pid":16804,"hostname":"DGPP-03698139","msg":"Listening on 127.0.0.1:57801"}
+{"level":30,"time":"2025-11-24T19:09:30.889Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-24T19:09:31.161Z","pid":16804,"hostname":"DGPP-03698139","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-24T19:09:31.161Z","pid":16804,"hostname":"DGPP-03698139","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-24T19:09:31.161Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-24T19:09:31.165Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-24T19:09:31.165Z","pid":16804,"hostname":"DGPP-03698139","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@43db05906dc30c61d2a0c7246ac13d16\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=42b869fe-c0b6-4d9a-8f16-ac0f86b6b661\"}"}
+{"level":30,"time":"2025-11-24T19:09:31.178Z","pid":16804,"hostname":"DGPP-03698139","msg":"Setting default timeout for context context=dcc795e5-13f6-48bc-b4c2-3cdd6116e69f to 10000"}
+{"level":30,"time":"2025-11-24T19:09:31.178Z","pid":16804,"hostname":"DGPP-03698139","msg":"Changed active context: context=dcc795e5-13f6-48bc-b4c2-3cdd6116e69f"}
+{"level":30,"time":"2025-11-24T19:09:31.339Z","pid":16804,"hostname":"DGPP-03698139","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-24T19:09:31.339Z","pid":16804,"hostname":"DGPP-03698139","msg":"Changed active page"}
+{"level":30,"time":"2025-11-24T19:09:32.517Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-24T19:09:32.524Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-24T19:09:32.524Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-11-24T19:09:32.547Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-24T19:09:32.550Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-24T19:09:32.550Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2025-11-24T19:09:32.572Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-11-24T19:09:32.572Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-24T19:09:32.575Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.575Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.586Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.589Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.589Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.599Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.602Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.602Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=cpf] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.612Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.615Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.615Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=cep] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.624Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:32.627Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-24T19:09:32.627Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[type=button][value$=CEP] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.665Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method click"}
+{"level":30,"time":"2025-11-24T19:09:32.667Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.668Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.673Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.673Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.685Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.685Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.691Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.691Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.703Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.703Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.708Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.708Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.719Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.720Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.725Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.725Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.737Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.737Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.742Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.742Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.754Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.754Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.759Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.759Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.771Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.771Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.776Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.776Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.789Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.789Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.794Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.794Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.806Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.806Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.811Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.811Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.823Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.823Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.828Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.828Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.839Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.839Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.843Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.843Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.854Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.854Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.859Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.859Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.870Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.871Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.875Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.875Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.886Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.886Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.891Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.891Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.903Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.903Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.908Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.908Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.919Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.919Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.924Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.924Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.935Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.935Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.939Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.939Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.950Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.950Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.954Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.954Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.965Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.965Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.969Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.969Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.980Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.980Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:32.984Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:32.984Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.996Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:32.996Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.000Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:33.000Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.011Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.011Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.015Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:33.015Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.026Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.026Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.030Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:33.030Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.042Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.042Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.045Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:33.045Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.056Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.056Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.060Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:33.060Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.071Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.072Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.077Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing "}
+{"level":30,"time":"2025-11-24T19:09:33.077Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.088Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.089Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressStreet] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.094Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressStreet] containing Rua Joaquim Floriano"}
+{"level":30,"time":"2025-11-24T19:09:33.094Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.097Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.097Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressDistrict] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.102Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressDistrict] containing Itaim Bibi"}
+{"level":30,"time":"2025-11-24T19:09:33.102Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.104Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.104Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressCityUf] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.108Z","pid":16804,"hostname":"DGPP-03698139","msg":"Retrieved dom property for element css=input[name=addressCityUf] containing São Paulo/SP"}
+{"level":30,"time":"2025-11-24T19:09:33.108Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-11-24T19:09:33.110Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:33.110Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressNumber] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.119Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:33.123Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:33.123Z","pid":16804,"hostname":"DGPP-03698139","msg":"Strict mode is enabled, find Locator with css=input[name=addressDetails] in page."}
+{"level":30,"time":"2025-11-24T19:09:33.129Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-24T19:09:43.138Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.141Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.142Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.143Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.144Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.145Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.146Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.147Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.150Z","pid":16804,"hostname":"DGPP-03698139","msg":"Changed active context: context=dcc795e5-13f6-48bc-b4c2-3cdd6116e69f"}
+{"level":30,"time":"2025-11-24T19:09:43.150Z","pid":16804,"hostname":"DGPP-03698139","msg":"Changing current active page: page=9c9f2c3b-6d9d-46ce-9b8d-fcdbf7c30bb7"}
+{"level":30,"time":"2025-11-24T19:09:43.150Z","pid":16804,"hostname":"DGPP-03698139","msg":"Changed active page"}
+{"level":30,"time":"2025-11-24T19:09:43.152Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-24T19:09:43.165Z","pid":16804,"hostname":"DGPP-03698139","msg":"Removed page=abea92ca-2a71-4a4e-8fdf-41b0806e69a1 from context=dcc795e5-13f6-48bc-b4c2-3cdd6116e69f page stack"}
+{"level":30,"time":"2025-11-24T19:09:43.199Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-24T19:09:43.204Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.204Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-24T19:09:43.232Z","pid":16804,"hostname":"DGPP-03698139","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-24T19:09:43.370Z","pid":16804,"hostname":"DGPP-03698139","msg":"End of node method closeAllBrowsers"}
